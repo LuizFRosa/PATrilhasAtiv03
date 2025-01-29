@@ -1,0 +1,36 @@
+using System;
+
+	  class Program
+	{
+		  public static void Main()
+		{
+		Console.Write("Digite um número: ");
+      int num1 = int.Parse(Console.ReadLine());
+      
+      	Console.Write("Digite mais um número: ");
+      int num2 = int.Parse(Console.ReadLine());
+      
+      	Console.Write("Digite mais um número: ");
+      int num3 = int.Parse(Console.ReadLine());
+      
+      if (num1 < num2)
+      {
+		Console.WriteLine("O primeiro número é menor que o segundo!");
+      	}
+      else 
+      {
+      	Console.WriteLine("O primeiro número é maior que o segundo!");
+      }
+      
+      if (num1 > num3)
+      {
+      	Console.WriteLine("O primeiro número é maior que o terceiro!");
+      }
+      else
+      {
+      	Console.WriteLine("O primeiro número é menor que o terceiro!");
+      }
+        Console.WriteLine("Pressione qualquer tecla para encerrar...");
+        Console.ReadKey();
+		}
+	}
